@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KaMov5</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_text1">Film</string>
+    <string name="tab_text2">Acara Tv</string>
+    <string name="tab_text3">Favorit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="profile">Profil</string>
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="title">Judul</string>
+    <string name="date">Pelepasan</string>
+    <string name="overview">Gambaran</string>
+    <string name="language">Bahasa</string>
+    <string name="rate">Rating: </string>
+    <string name="success_info">Berhasil hapus dari favorit</string>
+    <string name="success_insert_fav">Berhasil menambahkan ke favorit</string>
+    <string name="add_favorite">TAMBAH FAVORIT</string>
+    <string name="delete_favorite">HAPUS FAVORITE</string>
+
+
+    <string name="confirm_delete">Confirm to delete</string>
+    <string name="confirm_message">Are you sure want to delete this item?</string>
+
+    <string name="yes_btn">Yes</string>
+    <string name="no_btn">No</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Cari data</string>
+    <string name="appwidget_text">Contoh</string>
+    <string name="add_widget">Tambah widget</string>
+    <string name="empty_data">Tidak Ada Data</string>
+    <string name="setting">Pengaturan</string>
+    <string name="message_daily_reminder">Hai, KaMov5 ada kejutan hari ini!</string>
+    <string name="message_release_reminder">Hai, KaMov5 film baru rilis hari ini! </string>
+    <string name = "set_daily_reminder"> Pengingat Harian Diaktifkan </string>
+    <string name = "set_release_reminder"> Pengingat Rilis Diaktifkan </string>
+    <string name = "cancel_daily_reminder"> Pengingat Harian Dinonaktifkan </string>
+    <string name = "cancel_release_reminder"> Rilis Pengingat Dinonaktifkan </string>
+    <string name="change_language">Ubah Bahasa</string>
+    <string name="search_hint">Cari Data</string>
+    <string name="set_daily_reminder_sw">Atur Pengingat Harian</string>
+    <string name="set_release_reminder_sw">Atur Pengingat Rilis </string>
+</resources>

@@ -1,0 +1,2 @@
+include ':app', ':favoritekamov',
+rootProject.name='KaMov5'

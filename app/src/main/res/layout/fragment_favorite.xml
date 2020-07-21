@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".favorite.FavoriteFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn_movie"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/tab_text1"
+                tools:background="@drawable/background_load"/>
+
+            <Button
+                android:id="@+id/btn_tvshow"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/tab_text2"
+                tools:background="@drawable/background_load"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/frame_content">
+
+            </FrameLayout>
+
+        </LinearLayout>
+        <!--        <androidx.recyclerview.widget.RecyclerView-->
+        <!--            android:id="@+id/rv_favorite"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent">-->
+
+        <!--        </androidx.recyclerview.widget.RecyclerView>-->
+
+    </LinearLayout>
+
+
+    <!--    <ProgressBar-->
+    <!--        android:id="@+id/progressbarFavorite"-->
+    <!--        style="?android:attr/progressBarStyle"-->
+    <!--        android:indeterminateTint="@color/colorPrimaryDark"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"/>-->
+
+</FrameLayout>

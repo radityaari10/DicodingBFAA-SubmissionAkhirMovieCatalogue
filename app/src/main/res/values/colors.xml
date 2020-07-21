@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimaryDark">#7f0002</color>
+    <color name="bg_layout">#ededed</color>
+    <color name="text_color_tablayout">#aba6a6</color>
+    <color name="textWhite">#fff</color>
+</resources>

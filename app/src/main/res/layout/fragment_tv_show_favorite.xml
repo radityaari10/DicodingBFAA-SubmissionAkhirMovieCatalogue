@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".favorite.TvShowFavoriteFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/bg_layout">
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:layout_marginBottom="5dp"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            android:layout_gravity="center">-->
+
+        <!--            <Button-->
+        <!--                android:id="@+id/btn_movie_tvshow"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="40dp"-->
+        <!--                android:text="@string/tab_text1"-->
+        <!--                tools:background="@drawable/background_load"/>-->
+
+        <!--            <Button-->
+        <!--                android:id="@+id/btn_tvshow_tvshow"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="40dp"-->
+        <!--                android:text="@string/tab_text2"-->
+        <!--                tools:background="@drawable/background_load"/>-->
+
+        <!--        </LinearLayout>-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_tvshow_favorite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbarFavoriteTv"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminateTint="@color/colorPrimaryDark" />
+
+</FrameLayout>

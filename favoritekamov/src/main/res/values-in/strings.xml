@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FavoriteKaMov</string>
+    <string name="title">Judul</string>
+    <string name="date">Pelepasan</string>
+    <string name="overview">Gambaran</string>
+    <string name="language">Bahasa</string>
+    <string name="rate">Rating: </string>
+</resources>

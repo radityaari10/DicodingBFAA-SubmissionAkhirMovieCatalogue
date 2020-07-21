@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ly_constraint"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/ig_bg_detail_prov"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="center"
+            android:src="@android:color/darker_gray"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="29dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ly_data"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="184dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/background_detail"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ig_bg_detail_prov">
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_title_detail_prov"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="16dp"
+            android:maxLines="2"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ig_detailmini_prov"
+            app:layout_constraintTop_toTopOf="@+id/ly_data"
+            tools:text="@string/title"
+            tools:background="@drawable/background_load"/>
+
+        <TextView
+            android:id="@+id/tv_date_detail_prov"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_title_detail_prov"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_detail_prov"
+            tools:text="@string/date"
+            tools:background="@drawable/background_load"/>
+
+        <TextView
+            android:id="@+id/tv_language_detail_prov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/tv_title_detail_prov"
+            app:layout_constraintTop_toBottomOf="@+id/tv_date_detail_prov"
+            tools:text="@string/language"
+            tools:background="@drawable/background_load"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_language_detail_prov"
+            app:layout_constraintTop_toBottomOf="@+id/tv_date_detail_prov"
+            tools:text="@string/rate"
+            tools:background="@drawable/background_load"/>
+
+        <TextView
+            android:id="@+id/tv_vote_detail_prov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/tv_date_detail_prov"
+            tools:text="vote"
+            tools:background="@drawable/background_load"/>
+
+        <TextView
+            android:id="@+id/tv_overview_detail_prov"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="16dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_language_detail_prov"
+            tools:background="@drawable/background_load"
+            tools:text="@string/overview" />
+
+        <ImageView
+            android:id="@+id/ig_detailmini_prov"
+            android:layout_width="120dp"
+            android:layout_height="180dp"
+            android:src="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="@id/ig_bg_detail_prov"
+            app:layout_constraintEnd_toEndOf="@+id/ly_data"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintLeft_toLeftOf="@id/ig_bg_detail_prov"
+            app:layout_constraintRight_toRightOf="@id/ig_bg_detail_prov"
+            app:layout_constraintStart_toStartOf="@+id/ly_data"
+            app:layout_constraintTop_toTopOf="@+id/ly_data"
+            app:layout_constraintVertical_bias="0.9" />
+
+<!--        <ProgressBar-->
+<!--            android:id="@+id/progressbarMovieProv"-->
+<!--            style="?android:attr/progressBarStyle"-->
+<!--            android:indeterminateTint="@color/colorPrimaryDark"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/ly_constraint"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/ly_constraint"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

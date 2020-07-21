@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">KaMov5</string>
+    <string name="tab_text1">Movies</string>
+    <string name="tab_text2">Tv Show</string>
+    <string name="tab_text3">Favorite</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="profile">Profile</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="title">Title</string>
+    <string name="date">Release</string>
+    <string name="overview">Overview</string>
+    <string name="language">Language</string>
+    <string name="rate">Rate: </string>
+    <string name="success_info">Delete from favorites successfully</string>
+    <string name="success_insert_fav">Add to favorites successfully</string>
+    <string name="add_favorite">ADD FAVORITE</string>
+    <string name="delete_favorite">DELETE FAVORITE</string>
+
+    <string name="confirm_delete">Confirm to delete</string>
+    <string name="confirm_message">Are you sure want to delete this item?</string>
+
+    <string name="yes_btn">Yes</string>
+    <string name="no_btn">No</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_data">No Data</string>
+    <string name="setting">Setting</string>
+    <string name="message_daily_reminder">Hi, KaMov5 there is a surprise today!</string>
+    <string name="message_release_reminder">Hi, KaMov5 a new movie will be release today!</string>
+    <string name="set_daily_reminder">Daily Reminders are Activated</string>
+    <string name="set_release_reminder">Release Reminders are Activated</string>
+    <string name="cancel_daily_reminder">Daily Reminder is Disabled</string>
+    <string name="cancel_release_reminder">Release Reminder is Disabled</string>
+    <string name="change_language">Change Language</string>
+    <string name="search_hint">Search</string>
+    <string name="set_daily_reminder_sw">Set Daily Reminder</string>
+    <string name="set_release_reminder_sw">Set Release Reminder</string>
+</resources>
